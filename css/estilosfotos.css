@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Header*/
+header{
+    height: 1400px;
+}
+
+#cabecera{
+    width: 100%;
+    height: 1400px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+#cabecera ul{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 5%;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+#cabecera ul li{
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 15px;
+    
+}
+
+#cabecera ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: rgb(19, 19, 19);
+    font-weight: 600;
+    margin-left: 5px;
+    height: 20px;
+}
+
+#titulo{
+    position: absolute;
+    margin-top: 160px;
+}
+
+#zoom{
+    width: 100%;
+    height: 240px;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#zoom img{
+    border: 1px solid #05050500;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius:2% ;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#zoom img:hover{
+    transform : scale(1.1);
+    transition: 2s;
+}
+
+#bw{
+    width: 100%;
+    height: 240px;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#bw img {
+    border: 1px solid #05050500;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius:2% ;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-filter: grayscale(100%);
+}
+
+#bw img:hover{
+    transition: 1s;
+    -webkit-filter: grayscale(0%);
+}
+
+#bw2{
+    width: 100%;
+    height: 240px;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#bw2 img {
+    border: 1px solid #05050500;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius:2% ;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-filter: grayscale(100%);
+}
+
+#bw2 img:hover{
+    transform : scale(1.1);
+    transition: 2s;
+    -webkit-filter: grayscale(0%);
+}
+
+#giro{
+    width: 100%;
+    height: 240px;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#giro img{
+    border: 1px solid #05050500;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius:2% ;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#giro img:hover{
+    transform : rotate(360deg);
+    transition: 3s;
+}
+
+#girobw{
+    width: 100%;
+    height: 240px;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#girobw img {
+    border: 1px solid #05050500;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius:2% ;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-filter: grayscale(100%);
+    border-radius: 100%;
+}
+
+#girobw img:hover{
+    transform : rotate(360deg);
+    transition: 2s;
+    -webkit-filter: grayscale(0%);
+}
+
+/*Footer*/
+footer{
+    background-color: rgb(83, 80, 80);;
+}
+
+footer ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+footer ul li ul{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 20;
+}
+
+footer ul li ul img{
+    height: 50px;
+    width: all;    
+    border-radius: 50%;
+    margin-left: 10px;
+}
+footer ul li ul li{
+    margin-right: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}

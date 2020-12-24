@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Header*/
+header{
+    height: 1000px;
+}
+
+header img{
+    height: 700px;
+    width: 100%;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px ;
+    object-fit: cover;
+}
+
+#cabecera{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    background-color: aquamarine;
+}
+
+
+#cabecera ul{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 5%;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+#cabecera ul li{
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 15px;
+    
+}
+
+#cabecera ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+#titulo{
+    position: absolute;
+    margin-top: 120px;
+    width: 100%;
+    height: 900px;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#cuadro{
+    border: 1px solid #05050500;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.404);
+    margin-right: 3%;
+    border-radius:2% ;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#titulo h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: rgb(26, 24, 24);
+    align-self: flex-end;
+    width: 90%;
+    margin-right: 35px;
+}
+
+#titulo h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color:rgb(26, 24, 24);
+    align-self: flex-end;
+    width: 90%;
+    margin-right: 35px;
+
+}
+
+/*Footer*/
+footer{
+    background-color: rgb(83, 80, 80);;
+}
+
+footer ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+footer ul li ul{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 20;
+}
+
+footer ul li ul img{
+    height: 50px;
+    width: all;    
+    border-radius: 50%;
+    margin-left: 10px;
+}
+footer ul li ul li{
+    margin-right: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
