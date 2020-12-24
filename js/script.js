@@ -1,8 +1,8 @@
 document.getElementById('player').addEventListener("mouseover",sumarPuntos);
 
 puntos = 0;
-tiempo = 60;
-necesarios = 30;
+tiempo = 21;
+necesarios = 21;
 function sumarPuntos(){
     puntos++;
     document.getElementById("puntos").innerHTML = "Puntos: <b>" + puntos + "/" + necesarios + "</b>"
@@ -10,8 +10,8 @@ function sumarPuntos(){
     randNum2 = Math.round(Math.random()*500);
     document.getElementById("player").style.marginTop = randNum + "px";
     document.getElementById("player").style.marginLeft = randNum2 + "px";
-    if (puntos == 30) {
-        alert("Ganaste mi amor hermosa");
+    if (puntos == 21) {
+        alert("Feliz Cumple Cami!! Lo lograste, ahora pasemos a la siguiente seccion.");
     }
 }
 
@@ -23,7 +23,7 @@ function restarTiempo() {
     tiempo--;
     document.getElementById("tiempo").innerHTML = "&nbsp;&nbsp;&nbsp;Tiempo: " +tiempo;
     if (tiempo == 0) {
-        alert("Perdiste capita");
+        alert("Felicitaciones!!!! Perdiste capita, igual como somos buenos te damos otra oportunidad.");
         tiempo = 0;
         puntos = 0;
     }
