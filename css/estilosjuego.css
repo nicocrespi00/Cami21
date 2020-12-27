@@ -12,6 +12,7 @@ body{
 header{
     display: flex;
     flex-flow: column;
+    height: 1000px;
 }
 
 #cabecera{
@@ -102,7 +103,7 @@ footer ul li ul img{
     height: 50px;
     width: all;    
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: -10%;
 }
 footer ul li ul li{
     margin-right: 10px;

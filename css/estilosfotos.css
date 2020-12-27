@@ -61,10 +61,10 @@ header{
 
 #zoom img{
     border: 1px solid #05050500;
-    width: 25%;
+    width: 20%;
     background-color: rgba(255, 255, 255, 0.404);
     border-radius:2% ;
-    height: 200px;
+    height: 210px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -87,10 +87,10 @@ header{
 
 #bw img {
     border: 1px solid #05050500;
-    width: 25%;
+    width: 20%;
     background-color: rgba(255, 255, 255, 0.404);
     border-radius:2% ;
-    height: 200px;
+    height: 210px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -114,10 +114,10 @@ header{
 
 #bw2 img {
     border: 1px solid #05050500;
-    width: 25%;
+    width: 20%;
     background-color: rgba(255, 255, 255, 0.404);
     border-radius:2% ;
-    height: 200px;
+    height: 210px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -142,10 +142,10 @@ header{
 
 #giro img{
     border: 1px solid #05050500;
-    width: 25%;
+    width: 20%;
     background-color: rgba(255, 255, 255, 0.404);
     border-radius:2% ;
-    height: 200px;
+    height: 210px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -209,7 +209,7 @@ footer ul li ul img{
     height: 50px;
     width: all;    
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: -10%;
 }
 footer ul li ul li{
     margin-right: 10px;
