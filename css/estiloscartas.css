@@ -11,7 +11,7 @@ header{
 }
 
 header img{
-    height: 700px;
+    height: 1000px;
     width: 100%;
     background-color: transparent;
     padding: 0px;
@@ -85,9 +85,14 @@ header img{
     align-self: flex-end;
     width: 90%;
     margin-right: 35px;
+    font-size: 16px;
 }
 
 #titulo h2{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     font-weight: 600;
@@ -120,7 +125,7 @@ footer ul li ul img{
     height: 50px;
     width: all;    
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: -20%;
 }
 footer ul li ul li{
     margin-right: 10px;
